@@ -1,0 +1,50 @@
+
+
+.app_nav {
+  background-color:cadetblue;
+  height: 100px;
+  padding: 200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.app button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  padding: 14px 12px;
+  border-radius: 3px;
+  color: hwb(240 9% 23% / 0.815);
+  background-color: navy;
+  transition: 100ms ease;
+  height: 70px;
+}
+
+.app button:hover {
+  color: blue;
+}
+
+.app button:active {
+  transform: translateY(2px);
+}
+
+
+.app_dropdown {
+  position: relative;
+  
+  align-items: center;
+  display: flex;
+  
+  width: 30%;
+  height: 40px;
+  color: blueviolet;
+}
+
+.app_dropdown li {
+  padding: 10px;
+  border-bottom: 1px solid #000;
+  font-size: 2rem;
+  list-style: none;
+  white-space: nowrap;
+}
